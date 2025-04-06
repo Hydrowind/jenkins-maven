@@ -1,12 +1,6 @@
 pipeline {
   agent any
   stages {
-    stage('Clean Up') {
-      steps {
-        removeDir()
-      }
-    }
-
     stage('Checkout'){
       steps {
         git 'https://github.com/Hydrowind/jenkins-maven.git'
