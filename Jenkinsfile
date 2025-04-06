@@ -1,11 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout'){
-      steps {
-        git 'https://github.com/Hydrowind/jenkins-maven.git'
-      }
-    }
+    // stage('Checkout'){
+    //   steps {
+    //     git 'https://github.com/Hydrowind/jenkins-maven.git'
+    //   }
+    // }
 
     stage('Build') {
       steps {
